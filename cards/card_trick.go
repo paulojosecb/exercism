@@ -34,7 +34,7 @@ func PrependItems(slice []int, values ...int) []int {
 // RemoveItem removes an item from a slice by modifying the existing slice.
 func RemoveItem(slice []int, index int) []int {
 	if index >= len(slice) || index < 0 {
-		return append(slice, value)
+		return slice
 	}
 	return append(slice[:index], slice[index+1:]...)
 }

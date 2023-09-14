@@ -38,7 +38,7 @@ func ChooseVehicle(option1, option2 string) string {
 		bestChoice = option2
 	}
 
-	return fmt.Sprintf("%s is clearly the better choice", bestChoice)
+	return fmt.Sprintf("%s is clearly the better choice.", bestChoice)
 }
 
 // CalculateResellPrice calculates how much a vehicle can resell for at a certain age.
